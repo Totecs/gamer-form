@@ -5,7 +5,10 @@
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
  <title>Perfil Gamer</title>
  <link rel="stylesheet" href="css/bootstrap.min.css">
- <link rel="stylesheet" href="/styles.css">
+ <link rel="stylesheet" href="styles.css">
+ <style>
+  
+ </style>
 </head>
 <body class="bg-secondary">
 
@@ -13,7 +16,9 @@
         <h2 class="text-center mb-4 text-danger">PERFIL GAMER</h2>
         <div class="row g-3 d-flex justify-content-center">
             <div class="col-12 col-md-5 p-3 bg-dark text-white rounded m-1">
-                <div class="text-center">Nombre de jugador</div> 
+                <div class="text-center">Nick Gamer</div> 
+                <input type="text" class="form-control mb-3">
+                <div class="text-center">Juego Favorito</div> 
                 <input type="text" class="form-control mb-3">
                 <div class="text-center">Elegi tu plataforma</div> 
                 <select class="form-control mb-3">
@@ -22,20 +27,21 @@
                     <option value="mobile">Movil</option>
                     <option value="console">Consola</option>
                 </select>
+                <div class="text-center">Edad</div> 
+                <input type="text" class="form-control mb-3">
             </div>
             <div class="col-12 col-md-5 p-3 bg-dark text-white rounded m-1">
-                <div class="text-center">juego Favorito</div> 
+                <div class="text-center">Horas de juego por semana</div> 
                 <input type="text" class="form-control mb-3">
-                <div class="text-center">Sobre vos ...</div> 
+                <div class="text-center">Descripcion gamer</div> 
                 <textarea class="form-control mb-3">
 
                 </textarea>
-            </div>
-            <div class="form-check col-12 col-md-5 p-3 bg-dark text-white rounded m-1">
-                    <input class="form-check-input" type="checkbox">
+                <div class="text-center">Foto de perfil</div> 
+                <input class="form-control mb-3" type="file" name="image" id="a">
+                <input class="form-check-input" type="checkbox">
                     <label class="form-check-label">Jugador competitivo</label>
-                </div>
-
+            </div>
         </div>
         <div class="mt-3 text-center">
             <button class="btn btn-danger col-10">Crear Perfil</button>
